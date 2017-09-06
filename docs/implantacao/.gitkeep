@@ -1,1 +1,27 @@
+Implantação é a fase do ciclo de vida de um software (programa computacional, documentação e dados), no contexto de um Sistema de Informação, que corresponde textualmente 
+à passagem do software para a produção.
+O processo de implantação universal consiste de várias atividades intercaladas como possíveis transições entre elas. 
+Estas atividades podem ocorrer no ambiente de produção e ou no ambiente de desenvolvimento ou em ambos. Pelo o fato de cada software ser único, o processo preciso ou 
+procedimentos a serem seguidos são difíceis de definir. Alem disto, a implantação pode ser interpretado como um processo universal que tem de ser customizado de acordo 
+com requerimentos específicos ou características.
+
+A atividade de liberação segue-se ao fim do processo de desenvolvimento. Ela inclui toda as operações para preparar uma versão executável do software e transferi-la 
+para o cliente. Portanto, tem de determinar os recursos requeridos para operá-lo na produção e o conjunto de informações que devem ser coletadas para as posteriores 
+atividades do processo de implantação.
+A instalação é a implantação inicial do software no ambiente de produção. Atualmente, esta atividade é melhor suportada por ferramentas de programação. 
+Suas duas sub-atividades são a configuração e transferência. O procedimento padrão é mover o produto do ambiente de desenvolvimento para o ambiente de produção, enquanto 
+são alteradas todas as configurações para tornar o sistema pronto para a utilização do usuário. A maneira de mais rapido entendimento é passando do software pro hardware.
+Ativação é a atividade que inicia o componente executável do software. Para sistemas simples, isto envolve a utilização de alguns comandos para a execução. 
+Para sistemas complexos, isto pode envolver os sistemas de suporte estarem prontos para uso.
+
+No desenvolvimento de grandes softwares, o trabalho de copia de software é tipicamente instalado no servidor de produção no ambiente de produção. Outras versões de entregas
+de software devem ser instaladas nos ambiente de teste e ambiente de recuperação de desastre.
+A atividade de adaptação é também um processo para modificar um sistema de software que estava previamente instalado. Ele difere de atualização nas quais as adaptações 
+são instaladas por eventos tais como uma mudança no ambiente de produção, enquanto estas atualizações são mais freqüentemente iniciadas por produtos de software remotos
+Desinstalação consiste na remoção de um sistema que não é mais necessário. Ela também envolve algumas re-configurações em outros sistemas de software de forma a remover
+os arquivos e dependências deste sistema.
+Por fim, um sistema de software é marcado como obsoleto e os processos suportados por ele estão fora de uso. Este é o fim do ciclo de vida do produto de software.
+
+
+
 
