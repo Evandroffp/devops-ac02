@@ -1,1 +1,10 @@
 
+O teste de software, diferente dos modelos tradicionais, é uma forma de previnir defeitos, não obrigatoriamente de encontrá-los, pois quando desenvolvemos o teste antes, já sabemos que na primeira execução ele irá falhar, mas com o tempo, vamos construindo uma arquitetura blindada contra falhas e que atende aos critérios de aceitação para o sistema chegar em produção.
+
+Fora a automação dos testes, existem também as facilidades de automação de processos, tais como execução de programas que verificam padrões de código e sintaxe, e ferramentas que ajudam na integração contínua do código, notificando rapidamente o time quando algo quebrou, sendo fácil de identificar o que causou a falha para então atuar nela. Nestes casos, de preferencia um novo teste é criado para cobrir tal situação.
+
+Quando novas funcionalidades tem que ser implementas em um sistema que é auto testável, o risco de introdução de bugs é menor, o retrabalho é menor e os envolvidos conseguem focar no que agrega mais valor ao negócio, conseguindo fazer entregas a tempo de trazer vantagem competitiva aos clientes/usuários do sistema.
+
+Obviamente, é necessária uma visão do ponto de vista de negócio, mas a cada dia é  mais nítido que isso não é mais habilidade só de quem trabalha com análise de negócios ou teste de software. Na “onda” da agilidade, habilidades técnicas + entendimento da perspectiva de negócio são questões compreendidas por quem entende os princípios ágeis e não é mais diferencial de pessoal que não vem do desenvolvimento.
+
+E por fim (ao menos por hoje), o trabalho no desenvolvimento de softwares de alta qualidade (software desenvolvido com testes automatizados em todas as camadas, com bom nível de cobertura de código, com processos automatizados e com padrões e boas práticas de desenvolvimento de sistemas) é muito recompensador, pois construímos sistemas que facilitam a vida das pessoas, que tornam seus dias mais produtivos e que resolvem problemas reais.
