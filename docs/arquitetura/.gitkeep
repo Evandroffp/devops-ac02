@@ -1,1 +1,95 @@
-
+Se você trabalha com desenvolvimento de software, por experiência própria, deve saber que a única constante no processo de desenvolvimento é a mudança.
+Mas por que isso ocorre? Com o desenvolvimento tecnológico obtidos nos últimos tempos a área da tecnologia da informação foi impactada por dois fatores importantes:
+O aumento do tamanho e da complexidade dos sistemas de software;
+A redução do tempo e custo de desenvolvimento e manutenção do software.
+Assim, os sistemas ficaram mais complexos e maiores e o tempo e o orçamento para desenvolver tais sistemas diminuiu. E o negócio não pode parar…
+Um software é um produto que foi criado para atender uma necessidade de negócio, e os requisitos de negócio mudam a todo instante com base nas prioridades do mesmo, logo o software tem que ser alterado para dar suporte a tais mudanças. Dessa forma, um software que não foi bem projetado para dar suporte às constantes mudanças irá se tornar obsoleto e não vai mais cumprir o seu objetivo afetando os negócios.
+Então ‘o negócio’ é projetar um software que seja fácil de ajustar e barato de manter. Parece simples não é mesmo? Tudo começa com a definição da arquitetura de software a ser adotada. Uma das tarefas fundamentais no processo de criação de um software é a definição da arquitetura do projeto de software pois uma arquitetura consistente e bem definida se torna fundamental para que o projeto seja implementado com eficiência.
+A arquitetura de software desempenha um papel fundamental para gerenciar a complexidade inerente ao software a ser criado. Uma boa arquitetura possibilita que um sistema satisfaça às exigências principais de um projeto, tais como: desempenho, confiabilidade, portabilidade, manutenibilidade, interoperabilidade e etc.
+Uma má arquitetura simplesmente fará com que o software seja um fracasso.
+O que é arquitetura de software ?
+Existem muitas definições de arquitetura de software:
+“Uma arquitetura de software envolve a descrição de elementos arquiteturais dos quais os sistemas serão construídos, interações entre esses elementos, padrões que guiam suas composições e restrições sobre estes padrões”. GARLAN, 2000
+“A arquitetura de software define o que é o sistema em termos de componentes computacionais e os relacionamentos entre estes componentes”. VAROTO, 2002
+“A arquitetura de software de um sistema consiste na definição dos componentes de software, suas propriedades externas, e seus relacionamentos com outros softwares. O termo também se refere à documentação da arquitetura de software do sistema. A documentação da arquitetura do software facilita: a comunicação entre os stakeholders, registra as decisões iniciais acerca do projeto de alto-nível, e permite o reuso do projeto dos componentes e padrões entre projetos”. http://pt.wikipedia.org/wiki/Arquitetura_de_software, acessado em 2012
+Obs: Stakeholder é qualquer pessoa ou organização que tenha interesse, ou seja afetado pelo projeto. (Stake: interesse, participação, risco / Holder: aquele que possui)
+Assim, a arquitetura de um sistema deve definir os elementos que irão compor o software. Tais elementos definem como o software é particionado em pedaços menores e, assim, definem como o software é entendido.
+Como definir uma boa arquitetura?
+Segundo o RUP – Rational Unified Process, a arquitetura de um software envolve o conjunto de decisões que definem a organização do sistema e devem cumprir os seguintes objetivos:
+Definir os elementos estruturais e suas interfaces de modo a estabelecer a composição do sistema;
+Estabelecer o comportamento pela colaboração entre estes elementos;
+Compor estes elementos estruturais e comportamentais em subsistemas (agregação).
+Diversos fatores influenciam a definição da arquitetura como por exemplo:
+Arquitetura do hardware;
+Sistema operacional utilizado;
+Sistema Gerenciador de Banco de dados adotado;
+Protocolos de rede;
+A linguagem de programação;
+O ambiente de interface gráfica;
+As bibliotecas de funções disponíveis;
+Os sistemas legados envolvidos;
+As necessidades de desempenho, portabilidade, usabilidade, disponibilidade, etc;
+Documentação.
+Levando em conta esses fatores e sendo bem objetivo e prático, como podemos definir uma arquitetura básica que possa ser implementada em sistemas de pequeno é médio porte?
+Por onde começar?
+Comece pelo começo…
+1. Defina os requisitos do sistema
+Definir de forma sistemática os requisitos do sistema envolvendo todos os stackholders (interessados) no projeto de forma a ter o maior número possível de requisitos definidos de forma clara e objetiva;
+Os requisitos expressam as características e restrições do produto de software do ponto de vista de satisfação das necessidades do usuário, e, em geral independem da tecnologia empregada na construção da solução sendo a parte mais crítica e propensa a erros no desenvolvimento de software.
+Requisitos são objetivos ou restrições estabelecidas por clientes e usuários do sistema que definem as diversas propriedades do sistema. Os requisitos  de software são, obviamente, aqueles dentre os requisitos de sistema que dizem respeito a propriedades do software.
+A necessidade de se estabelecer os requisitos de maneira de forma precisa é crítica na medida que o tamanho e a complexidade do software aumentam. Os requisitos exercem influência uns sobre os outros. Por exemplo, o requisito de que o software de ter grande portabilidade (por exemplo, ser implementado em Java) pode implicar em que o requisito desempenho não seja satisfeito (programas em Java são, em geral, mais lentos).
+Uma boa especificação de requisitos deve ser:
+Clara e não ambígua;
+Completa;
+Correta;
+Compreensível;
+Consistente;
+Concisa;
+Confiável;.De acordo com Farley, um documento de especificação de requisitos deve possui as seguintes seções:
+Visão geral do produto e sumário;
+Ambientes de desenvolvimento, operação e manutenção;
+Interfaces externas e fluxo de dados;
+Requisitos funcionais;
+Requisitos de desempenho;
+Tratamento de exceções;
+Prioridades de implementação;
+Antecipação de mudanças e extensões;
+Dicas e diretrizes de design;
+Critérios de aceitação;
+Índice remissivo;
+Glossário.
+2. Definir uma ferramenta ORM
+De forma geral, você pode escolher uma ferramenta ORM para ajudá-lo a criar os objetos com base no seu domínio e a partir deles gerar o banco de dados usado pela aplicação.
+Existem dezenas de ferramentas ORMs disponíveis no mercado. Abaixo uma relação das mais importantes para a plataforma .NET:
+(fonte: http://en.wikipedia.org/wiki/List_of_object-relational_mapping_software)
+ADO.NET Entity Framework, included in .NET Framework 3.5 SP1 and above
+AgileFx, open source
+Base One Foundation Component Library, free or commercial
+Devart LinqConnect, commercial, an ORM solution for Oracle, MySQL, PostgreSQL, and SQLite
+Castle ActiveRecord, ActiveRecord for .NET, open source
+DatabaseObjects .NET, open source
+DataObjects.NET, commercial
+ECO, commercial but free use for up to 12 classes
+EntitySpaces, commercial
+Habanero, free open source enterprise application framework with a free code generating tool
+MyBatis, free open source, formerly named iBATIS
+iBATIS, free open source, maintained by ASF but now inactive.
+LINQ to SQL, included in .NET Framework 3.5
+LLBLGen Pro, commercial
+Neo, open source but now inactive.
+NHibernate, open source
+nHydrate, open source
+OpenAccess ORM, by Telerik free or commercial
+Persistor.NET, free or commercial
+Quick Objects, free or commercial
+Signum Framework, open source
+SubSonic, open source
+Symbiotic, by Frozen Elephant Inc.
+XPO, commercial, by DevExpress
+3. Aplique a separação das responsabilidades ao seu projeto de software
+A definição da separação em camadas estimula a organização da arquitetura do sistema em um conjunto de camadas coesas com fraco acoplamento entre elas onde cada camada possui um propósito bem definido.
+Principais camadas:
+UI(camada de apresentação): agrega as classes do sistema com as quais os usuários interagem;
+Negócio: mantém as classes do sistema responsáveis pelos serviços e regras do negócio;
+Dados: camada responsável pelo armazenamento e recuperação dos dados persistentes do sistema;
+Comunicação: responsável pela distribuição do sistema em várias máquinas.
