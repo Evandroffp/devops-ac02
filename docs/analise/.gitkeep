@@ -1,1 +1,31 @@
+Quando se fala em desenvolvimento de softwares, para quem tem bons conhecimentos de programação (ou não), é simples dizer a palavra “mágica” que quase
+ sempre já está na ponta da língua: “Eu tenho a solução!”, afirmam. Contudo, isso é um grande equívoco que profissionais/empresas cometem.
+O que alguns profissionais não entendem é que nem sempre o cliente sabe o que quer ou nem sempre consegue expressar o que pensa. E em muitos casos,
+ expressam totalmente o contrário do que realmente queriam passar. É fácil entender isso, levando em consideração pontos tais como: falta de conhecimento 
+ de tendências, falta de sensibilidade, falta de conhecimento técnico, entre outros fatores que podemos enumerar. E, consequentemente, há um gasto excessivo
+ de investimento e mão de obra e frustrações dos dois lados são inevitáveis.É provável que você já deve ter se deparado com vários casos parecidos. Na 
+ prática, é bem comum no início do projeto uma conversa informal com o cliente e depois de quase tudo pronto ele dizer que não era bem aquilo que se esperava.
+ Outro caso, é a mudança contínua das iterações do projeto para atender ao nível “alto” de satisfação do cliente (que nunca está satisfeito).
+A verdade sobre esses fatores são muitas. A começar pelo preço de custo/benefício, “tempo” e a pressão dos gestores em sua equipe para construírem softwares 
+com tempo cada vez menor, e, contudo, a falta de planejamento sério e de chegar a um nível maduro de entendimento do que realmente o cliente espera do produto final.
+Conseguir bons requisitos não é tarefa fácil, e, nem tão pouco, empresas estão interessadas em investir neste tipo de profissional. Investir neste processo, 
+gasta-se um tempo de planejamento, mas algo necessário, ou seja, levando-se pelo ponto de vista maduro, é algo que se ganha lá na frente da iteração do projeto.
+Estudos indicam que requisitos detectados depois do software implementado ou erros em sua análise são até 20 vezes mais caros de se corrigir que qualquer outro
+ tipo de erro. A ilustração abaixo mostra a realidade na construção de softwares e podemos até dizer (desconsiderando alguns passos) que em determinados tipos de serviços mais informais, isso também acontece.
+Essa é uma realidade não apenas no desenvolvimento de softwares, mas é algo corriqueiro e que acontece em nosso cotidiano. Para isso, basta precisarmos de um s
+erviço específico de uma determinada área que desconhecemos, um tipo de conserto de um aparelho, etc. Nestas situações, recebemos muitas opiniões e “conselhos”
+ do que realmente não se deve fazer. Mas, em alguns casos, encontramos algum bom profissional que realmente está atento a nossa necessidade e provê uma solução 
+ ao problema.
+“Um bom profissional sabe comunicar o seu jargão técnico com o jargão informal do seu cliente.”
+Outro ponto que alguns profissionais (mesmo os melhores) não entendem, é o fato que o cliente não é obrigado a saber/entender de um determinado assunto ou uma
+ necessidade. Isso eu chamo de visão, ou seja, alguns profissionais têm (e conquistam o cliente), outros não. Saliento a importância em dar à atenção ao cliente
+ e se dedicar em ouvir sua história de forma a entender o que ele quer e para que ele quer.
+Especificamente falando de softwares, a análise é fundamental, pois em sua construção, um dos maiores desafios no desenvolvimento é o da construção do sistema
+ certo, que preencha as necessidades dos usuários a um preço razoável. E para que isso aconteça, é preciso atingir boa comunicação e boa compreensão do mundo
+ dos usuários (é onde entra a Análise de Sistemas). Este artigo é uma abordagem bem superficial de uma análise de softwares, onde há várias iterações, bem como 
+ sua documentação, no qual a documentação dos requisitos e de casos de uso é uma forma “contratual” entre a equipe de desenvolvimento e o cliente a respeito do
+ software que será desenvolvido. Mas, o artigo aborda um ponto de vista que se deve ter na hora de construir software de qualidade.
+Por outro lado, posso afirmar que o grande desafio do analista não se limita apenas em implementar melhores soluções tecnológicas, mas sim em mudar a cultura 
+de uma empresa. Estudar, se dedicar e se especializar no que faz é parte da vida do profissional, mas, saber lidar com essas situações divergentes é o que faz 
+o grande diferencial do profissional e o sucesso no que se faz.
 
